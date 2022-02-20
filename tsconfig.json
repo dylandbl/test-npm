@@ -1,0 +1,19 @@
+{
+  "compilerOptions": {
+    "target": "es2016",
+    "module": "ESNext",
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "strict": true,
+    "skipLibCheck": true,
+
+    "jsx": "react-jsx",
+    "declaration": true, // Generates .d.ts file for types.
+    "declarationDir": "types", // Where to place the types.
+    "sourceMap": true, // Mapping JS back to TS file origin for debugging.
+    "outDir": "dist",
+    "moduleResolution": "node", // Follow node.js rules for finding modules.
+    "allowSyntheticDefaultImports": true, // Assume default exports if none created manually.
+    "emitDeclarationOnly": true // Don't generate JS (rollup will do it), only export type declarations.
+  }
+}
