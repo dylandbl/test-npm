@@ -1,7 +1,7 @@
 {
   "name": "test-npm",
   "version": "0.1.1",
-  "description": "A popup emoji reaction component for React.",
+  "description": "Testing module creation.",
   "main": "dist/cjs/index.js",
   "module": "dist/esm/index.js",
   "files": [
